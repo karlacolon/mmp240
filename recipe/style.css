@@ -1,20 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
 
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.3rem;  
+}
+
+div{
+    max-width: 1300px;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 2rem;
+    /* centering the div by forcing left and right magins to be the same*/
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:auto;
+}
 
 h1{
     text-align: center;
     font-family: 'Oswald';
-    font-size: 36px;
+    font-size: 2rem;
+    line-height: 1em;
     color: hsl(24, 31%, 38%);
 }
 
-body{
-    background-color: bisque;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
+img{
+    float: right;
+    width: 60%;
 }
 
-img{float: right;
+li{
+    margin-bottom:1.5rem;
 
 }
