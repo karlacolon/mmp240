@@ -4,12 +4,29 @@
 
 header{
     padding:2em;
+    height: 350px;
     background: 
-        linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(255,255,255,0.6965161064425771) 42%)
-        url("images/friendscastphoto.jpg") no-repeat top right;
+     linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,0,20,1) 35%, rgba(0,0,0,0) 46%),
+     url("images/friendscastphoto.jpg") no-repeat top right/65%;
+
 }
 
 .lead{
     width:33%;
     color: white;
+}
+
+h1 img{
+    width: 300px;
+}
+
+.button{
+    display:block;
+    width: 3em;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
 }
