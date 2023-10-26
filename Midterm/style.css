@@ -4,12 +4,13 @@
 
 header{
     padding:2em;
-    height: 350px;
+    height: 340px;
     background: 
      linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,0,20,1) 35%, rgba(0,0,0,0) 46%),
      url("images/friendscastphoto.jpg") no-repeat top right/65%;
 
 }
+
 
 .lead{
     width:33%;
