@@ -8,11 +8,12 @@ header{
     background: 
      linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,0,20,1) 35%, rgba(0,0,0,0) 46%),
      url("images/friendscastphoto.jpg") no-repeat top right/65%;
-
+     
 }
 nav li {
     display: inline;
     margin-right: 2em;
+    color:black;
 }
 
 
@@ -27,6 +28,10 @@ nav li {
       padding:5px;
       border-radius: 10px;
       margin: 2em;
+}
+
+.card img {
+    width: 100%;
 }
 
 .lead{
@@ -57,16 +62,14 @@ h1 img{
 
 nav a {
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 nav ul {
     padding: 0;
-    background-color: white;
 }
 
 main {
     padding: 2em;
-    background-color:lightgray;
     color: #000000;
 }
