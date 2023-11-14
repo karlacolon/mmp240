@@ -1,0 +1,27 @@
+/* *{
+    padding:0%;
+    margin:0%;
+    border:none;
+} */
+
+#wrapper{
+    max-width: 1200px;
+}
+
+header{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+h1{
+    float: left;
+}
+.topnav nav{
+    clear: right; /* clears right floats */
+    border: solid 1px black;
+    padding: 0.5em;
+}
+
+#menu{
+    float: right;
+}
