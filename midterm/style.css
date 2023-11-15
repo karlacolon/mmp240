@@ -66,10 +66,22 @@ nav a {
 }
 
 nav ul {
-    padding: 0;
+    padding: 0.5em;
 }
 
 main {
     padding: 2em;
     color: #000000;
+}
+
+#navigation {
+    background-color: gray;
+    width: 1150px;
+    height: 20px;
+    margin-left: none;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
 }
