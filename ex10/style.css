@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav li img{
+    float: right;
+    width: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: white;
+    border-bottom: solid 1px #666;
+    color: black;
+}
