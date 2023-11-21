@@ -17,6 +17,7 @@ h1{
     float: left;
 }
 .topnav nav{
+    display: none;
     clear: right; /* clears right floats */
     border: solid 1px black;
     padding: 0.5em;
@@ -24,4 +25,32 @@ h1{
 
 #menu{
     float: right;
+}
+
+.discovernav {
+    clear:both;
+}
+
+
+.discovernav a{
+    display: block;
+    padding: 10px;
+    border-solid 1px white;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown a{
+    background-color: black
+}
+
+.discovernav li:hover .dropdown {
+    display: block;
+}
+
+.program-select{
+    margin-bottom: 1em;
+    background-color: gray;
 }
