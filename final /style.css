@@ -4,6 +4,26 @@
     border:none;
 } */
 
+body{
+    margin: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.header {
+    padding: 1em;
+    background-color: black;
+    color: white;
+}
+
+h1 h2 h3 strong{
+    font-weight: bold;
+}
+
 #wrapper{
     max-width: 1200px;
 }
@@ -35,7 +55,7 @@ h1{
 .discovernav a{
     display: block;
     padding: 10px;
-    border-solid 1px white;
+    border: solid 1px white;
 }
 
 .dropdown {
@@ -53,4 +73,46 @@ h1{
 .program-select{
     margin-bottom: 1em;
     background-color: gray;
+}
+
+.banner {
+    padding: 2em;
+    padding-top: 3em;
+    background: url(images/Hero\ Banner\ Final\ Project.jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner p{
+    background-color: black;
+    color:white;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+section{
+    margin-bottom: 2em;
+}
+
+article{
+    margin-bottom: 2em;
+}
+
+article img{
+    width: 100%;
+}
+
+.date{
+    margin-top: 0.5em;
+}
+
+footer {
+    font-size: smaller;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1em;
+    }
 }
