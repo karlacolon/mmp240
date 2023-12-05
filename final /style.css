@@ -16,8 +16,8 @@ p{
 
 .header {
     padding: 1em;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 h1 h2 h3 strong{
@@ -26,11 +26,6 @@ h1 h2 h3 strong{
 
 #wrapper{
     max-width: 1200px;
-}
-
-header{
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 h1{
@@ -43,11 +38,13 @@ h1{
     padding: 0.5em;
 }
 
+
 #menu{
     float: right;
 }
 
 .discovernav {
+    text-decoration: none;
     clear:both;
 }
 
@@ -55,7 +52,7 @@ h1{
 .discovernav a{
     display: block;
     padding: 10px;
-    border: solid 1px white;
+    border: solid 1px black;
 }
 
 .dropdown {
@@ -72,7 +69,20 @@ h1{
 
 .program-select{
     margin-bottom: 1em;
-    background-color: gray;
+}
+
+nav a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+h1, h2, h3, strong{
+    font-weight:bold;
+}
+
+h2{
+    text-transform: uppercase;
+    color: lightskyblue;
 }
 
 .banner {
@@ -80,6 +90,7 @@ h1{
     padding-top: 3em;
     background: url(images/Hero\ Banner\ Final\ Project.jpg) no-repeat;
     background-size: cover;
+    
 }
 
 .banner p{
@@ -90,11 +101,11 @@ h1{
 }
 
 section{
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 article{
-    margin-bottom: 2em;
+    margin: 1em 0;
 }
 
 article img{
@@ -114,5 +125,43 @@ footer {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-gap: 1em;
+    }
+
+    .flex-container{
+        display: flex;
+    }
+
+    .program-select{
+        width: 33%;
+        position: relative;
+    }
+
+    .dropdown{
+        position: absolute;
+        width: 100%;
+    }
+
+    .topnav nav{
+        display: block;
+    }
+
+    #menu{
+        display:none;
+    }
+
+    .topnav ul .topnav li .topnav form{
+        display: inline;
+        margin-left: 1em;
+    }
+
+    .topnav nav{
+        border:none;
+        float: right;
+        margin-right: 0;
+
+    }
+
+    .topnav a{
+        display: inline;
     }
 }
