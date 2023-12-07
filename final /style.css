@@ -38,6 +38,10 @@ h1{
     padding: 0.5em;
 }
 
+nav #topmenu {
+    display: inline;
+}
+
 
 #menu{
     float: right;
@@ -72,6 +76,7 @@ h1{
 }
 
 nav a{
+    display: inline;
     text-decoration: none;
     color: cadetblue;
 }
@@ -127,6 +132,10 @@ footer {
         grid-gap: 1em;
     }
 
+    main.program-page{
+        display: block;
+    }
+
     .flex-container{
         display: flex;
     }
@@ -139,6 +148,10 @@ footer {
     .dropdown{
         position: absolute;
         width: 100%;
+    }
+
+    nav #topmenu {
+        display: inline;
     }
 
     .topnav nav{
@@ -163,5 +176,23 @@ footer {
 
     .topnav a{
         display: inline;
+    }
+
+    .programs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+    .programs a{
+        text-decoration: none;
+        color:black
+    }
+
+    .program-card{
+        box-shadow: 3px 3px 10px gray;
+        padding: 1em;
+    }
+    .program-card p .program-card h3 .program-card h4{
+        margin: 1em;
     }
 }
