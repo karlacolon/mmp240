@@ -151,6 +151,16 @@ footer {
     font-size: smaller;
 }
 
+.program-card{
+    box-shadow: 3px 3px 10px gray;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 @media (min-width: 768px) {
     main {
         display: grid;
