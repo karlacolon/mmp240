@@ -55,7 +55,7 @@ h2{
 }
 
 #topmenu{
-    display: inline;
+    display: none;
 }
 
 nav a:hover{
