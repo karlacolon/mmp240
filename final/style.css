@@ -62,10 +62,6 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#menu{
-    float: right;
-}
-
 .discovernav {
     text-decoration: none;
     clear:both;
@@ -195,7 +191,7 @@ a{
     }
 
     #menu{
-        display:none;
+        display: block;
     }
 
     .topnav ul, .topnav li, .topnav form{
