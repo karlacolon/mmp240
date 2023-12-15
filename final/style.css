@@ -198,7 +198,7 @@ a{
         display:none;
     }
 
-    .topnav ul .topnav li .topnav form{
+    .topnav ul, .topnav li, .topnav form{
         display: inline;
         margin-left: 1em;
     }
