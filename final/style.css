@@ -149,7 +149,11 @@ footer {
 
 .program-card{
     box-shadow: 3px 3px 10px gray;
-    padding: 1em;
+    padding-bottom: 1em;
+}
+
+.program-card p, .program-card h3, .program-card h4 {
+    margin: 1em;
 }
 
 a{
