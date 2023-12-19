@@ -147,7 +147,12 @@ footer {
     font-size: smaller;
 }
 
+.program-card img{
+    width: 100%;
+}
+
 .program-card{
+    border: solid 1px black;
     box-shadow: 3px 3px 10px gray;
     padding-bottom: 1em;
 }
@@ -224,11 +229,4 @@ a{
         color:black
     }
 
-    .program-card{
-        box-shadow: 3px 3px 10px gray;
-        padding: 1em;
-    }
-    .program-card p .program-card h3 .program-card h4{
-        margin: 1em;
-    }
 }
